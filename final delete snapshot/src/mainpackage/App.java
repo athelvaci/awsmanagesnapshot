@@ -15,7 +15,7 @@ public class App {
 
 			// credential object will create in here
 			EbsAutoSnapshotConfig config = new EbsAutoSnapshotConfig("AKIAJNTGOR3TTDKHXFSA",
-					"NBITOINqO+2ebuBMao4/j0LqcLGYODkhXtz8GCMs");
+					"NBITOINqO+2ebuBMao4/j0LqcLGYODkhXtz8GCMs"); //change here with your credentials
 
 			// Run the application
 			EbsSnapshotManager ebsSnapshotManager = new EbsSnapshotManager(config);
